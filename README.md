@@ -19,7 +19,7 @@ Search and import tracks from BeatSaver into Beat Saber — with Spotify integra
 ## Installation
 
 ```bash
-git clone git@github.com:LoliE1ON/Saberfy.git
+git clone git@github.com:dev-okinawa/Saberfy.git
 cd Saberfy
 npm install
 ```
