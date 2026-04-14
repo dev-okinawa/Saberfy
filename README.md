@@ -1,48 +1,46 @@
-# Saberfy (WIP)
+# Saberfy
 
-Application to search and import tracks from BeatSaver to BeatSaber.
+Search and import tracks from BeatSaver into Beat Saber — with Spotify integration.
 
-![Saberfy preview](https://files.e1on.space/proggrams/saberfy.png)
+> **Status:** Work in progress
 
-### Features
-- Find Spotify favorite tracks in BeatSaver
-- Find maps by song or artist from BeatSaver
-- Import maps to BeatSaber
-- Map sorting
-- Map preview
+## Features
 
-## Dependencies
-NodeJS >= 16
+- Find maps for your Spotify liked tracks via BeatSaver
+- Search BeatSaver by song name or artist
+- One-click map import to Beat Saber
+- Map sorting and filtering
+- In-app map preview
 
-## Install
+## Requirements
 
-Clone repository
+- Node.js >= 16
+
+## Installation
 
 ```bash
 git clone git@github.com:LoliE1ON/Saberfy.git
-```
-
-Go to the project
-
-```bash
 cd Saberfy
-```
-
-Install all dependencies
-
-```bash
-npm i
+npm install
 ```
 
 ## Setup
-- Create Spotify application in the Dashboard: https://developer.spotify.com/dashboard/applications
-- Set Spotify clientId in `src/config/spotify.ts` file
-- Start application: ```npm start```
+
+1. Create a Spotify app at [developer.spotify.com/dashboard](https://developer.spotify.com/dashboard)
+2. Add your `clientId` to `src/config/spotify.ts`
+3. Start the app:
+
+```bash
+npm start
+```
 
 ## Build
-- Standalone build: ```npm run package```
-- Installer:  ```npm run make```
+
+| Command | Output |
+|---|---|
+| `npm run package` | Standalone executable |
+| `npm run make` | Platform installer |
 
 ## License
 
-MIT
+[MIT](LICENSE)
